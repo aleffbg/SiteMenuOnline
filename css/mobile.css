@@ -1,0 +1,63 @@
+@media only screen and (max-width: 787px){
+    
+    /*Topo*/
+    #logo{
+        margin-left: 22px;
+    }
+    #menu_lista{
+        display: flex;
+        position: absolute;
+        margin-top: 10px;
+        top: 85px;
+        left: 120px;
+        align-items: center;
+        text-align: center;
+        
+    }
+    #menu_lista ul li a{
+        font-size: 13px;
+        line-height: 0.0;
+    }
+    #insta{
+        position: absolute;
+        top: 5px;
+        left: 230px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    #twitter{
+        position: absolute;
+        top: 5px;
+        left: 260px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #whats{
+        position: absolute;
+        top: 5px;
+        left: 290px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar-header{
+        position: relative;
+        height: 320px;
+    }
+    .footer{
+        height: 30px;
+        min-height: 180px;
+        padding: 40px;
+    }
+    .footer h3{
+        font-size: 12px;
+        line-height: 1.3;
+    }
+    
+}

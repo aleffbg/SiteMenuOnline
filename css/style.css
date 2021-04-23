@@ -1,0 +1,363 @@
+img{
+    max-width: 100%;
+}
+* {
+    margin: 0px; 
+    padding: 0px;
+    
+}
+/*header {
+    background-color: rgb(41, 32, 32);
+}*/
+nav {
+    min-height: 100px; 
+    margin-bottom: 0 !important;
+    background-color: rgb(41, 32, 32);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*Redes Sociais*/
+#insta {
+    margin: 37px 0; 
+    max-width: 27px;
+}
+#twitter {
+    margin: 37px 0; 
+    max-width: 27px;
+}
+#whats {
+    margin: 37px 0; 
+    max-width: 27px;
+}
+
+#logo {
+    margin: 23px 0; 
+    max-width: 200px;
+}
+#home {
+    margin: 50px 0;
+}
+#sobre {
+    margin: 50px 0;
+}
+#contato {
+    margin: 50px 0;
+}
+#ajuda {
+    margin: 50px 0;
+}
+
+.link_menu {
+    margin-top: 27px;
+}
+.link_menu a{
+    color: rgb(255, 255, 255) !important; 
+    padding: 30px;
+    transition: all 0.3s;
+}
+.link_menu a:hover{
+    background-color:#D24D57 !important; 
+    color:rgb(255, 255, 255) !important; 
+    transition: all 0.3s;
+}
+.link_menu a{
+    font-family: 'Poppins', sans-serif; 
+    font-weight: bold;
+    font-size: 16px; 
+    text-transform: uppercase;
+}
+
+/* Banner */
+.banner{
+    width: 100%;
+    height: 300px;
+    background: url(../css/img/banner.jpg) no-repeat center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+.banner h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin-top: 90px;
+    text-shadow: black 2px 2px 10px;
+    margin-bottom: 50px;
+}
+.banner a{
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 25px 20px;
+    width: 50px;
+    color: white;
+    background: rgb(41, 32, 32);
+    border-radius: 10px;
+    box-shadow: black 2px 2px 10px;
+}
+.banner a:hover{
+    background: #D24D57;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s;
+    box-shadow: black 2px 2px 10px;
+}
+
+/*Frase*/
+.frase1 h1{
+    font-size: 28px;
+    color: black;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.frase2 h1{
+    font-size: 28px;
+    color: black;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.frase2 h2{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.frase3 h1{
+    font-size: 28px;
+    color: black;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.frase3 h2{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Lanches */
+.artesanal{
+    margin-top: 50px;
+    background: url(../css/img/fundo3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.artesanal h2{
+    margin-top: 75px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.lanche{
+    margin-top: 75px;
+}
+.lanche li{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+.lanche img{
+    width: 280px;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+.lanche img:hover{
+    -webkit-transition: scale(1.1);
+    transform: scale(1.1);
+}
+.lanche h3{
+    font-family: 'Poppins', sans-serif;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}
+.lanche p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    text-transform: initial;
+    text-align: center;
+}
+/*.lanche h4 a{
+    background-color: rgb(41, 32, 32);
+    padding: 10px;
+    color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 65px;
+}
+.lanche h4 a:hover{
+    background-color: black;
+    color:rgb(255, 255, 255);
+    transition: 0.8 all;
+    transition: all 0.3s;
+}*/
+
+
+a.animated-button.victoria-one {
+	border: 2px solid #D24D57;
+    margin: 30px;
+}
+a.animated-button.victoria-one:hover{
+	background: #D24D57;
+}
+
+.acompanhamentos{
+    margin-top: 50px;
+    background: url(../css/img/fundo4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.acompanhamentos h2{
+    margin-top: 75px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.acomp{
+    margin-top: 75px;
+}
+.acomp li{
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+.acomp img{
+    width: 280px;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+.acomp img:hover{
+    -webkit-transition: scale(1.1);
+    transform: scale(1.1);
+}
+.acomp h3{
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}
+.acomp h4 a{
+    background-color: rgb(41, 32, 32);
+    padding: 10px;
+    color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 65px;
+}
+.acomp h4 a:hover{
+    background-color: black;
+    color:rgb(255, 255, 255);
+    transition: 0.8 all;
+    transition: all 0.3s;
+}
+
+/*Bebidas*/
+.bebidas{
+    margin-top: 50px;
+    background: url(../css/img/fundo5.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.bebidas h2{
+    margin-top: 75px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.drink{
+    margin-top: 75px;
+}
+.drink li{
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+.drink img{
+    width: 280px;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+.drink img:hover{
+    -webkit-transition: scale(1.1);
+    transform: scale(1.1);
+}
+.drink h3{
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}
+.drink p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 15px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    text-transform: initial;
+    text-align: left;
+}
+.drink h4 a{
+    background-color: rgb(41, 32, 32);
+    padding: 10px;
+    color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 65px;
+}
+
+
+/*Rodapé*/
+.footer {  
+    width: 100%;
+    height: 70px;
+    min-height: 180px;
+    padding: 40px;
+    background: rgb(41, 32, 32);
+}
+.footer h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+}
+
+/*Barra de rolagem*/
+::-webkit-scrollbar
+::-webkit-scrollbar-thumb
+::-webkit-scrollbar-track{
+    background: rgb(255, 255, 255);
+}
+::-webkit-scrollbar{
+    width: 4px;
+    background: rgb(255, 255, 255);
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(41, 32, 32);
+}
